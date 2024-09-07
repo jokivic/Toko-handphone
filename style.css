@@ -1,0 +1,26 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination {
+display: flex;
+justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    padding: 5px 10px;
+   
+}
+
+.pagination a.biru {
+    background-color: rgb(26, 236, 44);
+    font-weight: bold;
+    border-radius: 5px
+}
+
+.pagination a:hover:not(.biru) {
+    background-color: rgb(89, 190, 97);
+    border-radius: 5px;
+}
